@@ -11,6 +11,7 @@ function App() {
   const [guns, setGuns] = useState([]);
   const [cart, setCart] = useState([]);
   
+  
  
 
   const handleAddToCart = (boy) => {
@@ -21,6 +22,8 @@ function App() {
     const newCart = [];
     setCart(newCart);
   };
+ 
+
   
   
  
@@ -51,6 +54,9 @@ function App() {
        {cart.map((item) => (
           <h1>Name: {item.name}</h1>
         ))}
+       
+       
+       
         <div className="pop">
         <button onClick={handleAddToCarti} className='btn-cart pop'>
         <p className='btn-text'>Delete</p>
