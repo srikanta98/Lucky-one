@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Jaeger-LeCoultre",
+      "img": "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      
+      "capacity": "17 + 1",
+      "action": "Semi-Automatic",
+      "price": "540",
+      "category": "1 star"
+    },
+    {
+      "id": 2,
+      "name": "Audemars Piguet",
+      "img": "https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d3Jpc3R3YXRjaHxlbnwwfHwwfHw%3D&w=1000&q=80",
+      
+      "capacity": "10 + 1",
+      "action": "Semi-Automatic",
+      "price": "900",
+      "category": "2 star"
+    },
+    {
+      "id": 3,
+      "name": "Frédérique Constant",
+      "img" : "https://rukminim2.flixcart.com/image/714/857/kcjexe80/watch/3/0/9/new-generation-digital-new-military-digital-led-sports-watch-for-original-imaftnbxwuz3jhqa.jpeg?q=50",
+      
+      "capacity": "7 + 1",
+      "action": "Semi-Automatic",
+      "price": "900",
+      "category": "3 star"
+    },
+    {
+      "id": 4,
+      "name": "Piaget",
+      "img": "https://i.bikroy-st.com/naviforce-nf9148swbe-wrist-watch-for-men-for-sale-dhaka/31f66c86-fa0e-4df3-bd6d-144d372ef1dc/1200/800/fitted.jpg",
+      
+      "capacity": "18 + 1",
+      "action": "Semi-Automatic",
+      "price": "1000",
+      "category": "1 star"
+    },
+    {
+      "id": 5,
+      "name": "Piaget",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYNVphfTsyAUTK3nJv9mq6qGJZZ5mxSp3xtQ&usqp=CAU",
+      "quality": "+++",
+      "capacity": "3 + 1",
+      "action": "Semi-Automatic",
+      "price": "1720",
+      "category": "2 star"
+    },
+    {
+      "id": 6,
+      "name": "Piaget",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSutgekXcgSLOdOiyRj5hK7rm8Sg9ozGKUH_TcKhfEWatYstSbfAdn8-AtDC5CID7t_9rA&usqp=CAU",
+      
+      "capacity": "5 + 1",
+      "action": "Semi-Automatic",
+      "price": "1900",
+      "category": "3 star"
+    },
+    {
+      "id": 7,
+      "name": "Cartier",
+      "img": "https://n4.sdlcdn.com/imgs/i/z/i/HMTe-HM-9072-Metal-Analog-SDL494827480-1-db8fc.jpg",
+      
+      "capacity": "2",
+      "action": "Double Shot",
+      "price": "5430",
+      "category": "1 star"
+    },
+    {
+      "id": 8,
+      "name": "Harry Winston",
+      "img": "https://static-01.daraz.com.bd/p/9ef16fff334884eb96043d62dabb1c1a.jpg",
+      
+      "capacity": "5 + 1",
+      "action": "Pump",
+      "price": "570",
+      "category": "2 star"
+    },
+    {
+      "id": 9,
+      "name": "Blancpain",
+      "img": "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      
+      "capacity": "5",
+      "action": "Semi-Automatic",
+      "price": "970",
+      "category": "1 star"
+    }
+    
+  ]
