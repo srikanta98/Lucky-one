@@ -1,6 +1,6 @@
 # Journey towards react
 
-This project was done for assignment [Live site link](https://monumental-daifuku-416512.netlify.app/).
+This project was done for assignment [Live site link](https://stately-panda-327a6a.netlify.app/).
 
 ## Available Scripts
 
