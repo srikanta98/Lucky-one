@@ -1,6 +1,6 @@
 # Journey towards react
 
-This project was done for assignment [Create React App](https://github.com/facebook/create-react-app).
+This project was done for assignment [Create React App](https://monumental-daifuku-416512.netlify.app/).
 
 ## Available Scripts
 
