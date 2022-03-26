@@ -4,7 +4,7 @@ This project was done for assignment [Create React App](https://github.com/faceb
 
 ## Available Scripts
 
-In the project directory, you can run:ssfssfsfsf
+In the project directory,
 
 ### `npm start`
 
