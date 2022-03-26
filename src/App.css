@@ -22,14 +22,21 @@ body {
   .products-container{
       grid-template-columns: repeat(2, 1fr);
   }
+  .shop-container{
+    grid-template-columns: 1fr 3fr;
+  }
 }
 @media screen and (max-width:560px) {
   .products-container{
       grid-template-columns: repeat(1, 1fr);
   }
+  .shop-container{
+    grid-template-columns: 1fr 3fr;
+  }
 }
 .cart-container{
-  position: sticky;
+  position: relative;
+  right: 30px;
   top: 0;
   padding: 30px 20px;
   background-color: rgb(216, 192, 136);
@@ -55,12 +62,12 @@ body {
 .pip{
   position:absolute;
   top: 20px;
-  right: 840px;
+  right: 986px;
 }
 .pap{
   position:absolute;
   top: 54px;
-  right: 742px;
+  right: 896px;
 }
 .first{
   background-color: antiquewhite;
@@ -69,11 +76,14 @@ body {
   border-radius: 20px;
   height: 200px;
   margin-bottom: 15px;
+  
 }
 .first h1 {
   margin-bottom: 10px;
   background-color: rgb(185, 102, 102);
-  border-radius: 60px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
 }
 .second{
   margin-top: 30px;
@@ -82,4 +92,5 @@ body {
   color: rgb(42, 40, 40);
   border-radius: 20px;
   height: 100px;
+  
 }

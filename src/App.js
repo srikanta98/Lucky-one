@@ -10,15 +10,19 @@ import { CgCloseR } from "react-icons/cg";
 function App() {
   const [guns, setGuns] = useState([]);
   const [cart, setCart] = useState([]);
-  const [deletecart, setDelete] = useState([]);
+  
  
 
-  const handleAddToCart = (gun) => {
-    const newCart = [...cart, gun];
+  const handleAddToCart = (boy) => {
+    const newCart = [...cart, boy];
+    setCart(newCart);
+  };
+  const handleAddToCarti = () => {
+    const newCart = [];
     setCart(newCart);
   };
   
-
+  
  
 
   useEffect(() => {
@@ -43,16 +47,16 @@ function App() {
         
       </div>
       <div className="cart-container">
-        
+        <h1>Seleted Items</h1>
        {cart.map((item) => (
           <h1>Name: {item.name}</h1>
         ))}
         <div className="pop">
-        <button className='btn-cart pop'>
-        <p className='btn-text'>Random</p>
+        <button onClick={handleAddToCarti} className='btn-cart pop'>
+        <p className='btn-text'>Delete</p>
         </button>
         <button className='btn-cart'>
-        <p className='btn-text'>Delete</p>
+        <p className='btn-text'>Random</p>
         </button>
         </div>
       </div>
@@ -60,10 +64,10 @@ function App() {
         
      <div className="first">
        <h1>How react works?</h1>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore veniam animi obcaecati quasi dolorem inventore! Minus quas atque exercitationem amet.</p>
+       <p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces.Thats why this is really useful to programmar.Maily react goes to its virtual Dom,and see what's mainly changed in it's dom and it creates a changed list and send it to actual dom.So react does fancy updates.</p>
        <div className="second">
-       <h1>Usestate vs prop?</h1>
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quaerat molestiae necessitatibus maxime quos suscipit laboriosam nostrum a, incidunt quidem.</p>
+       <h1>How Usestate works?</h1>
+       <p> React is a declarative, efficient, and flexible JavaScript library for building user interfaces.useState is a hook.we can have state variables in fuctional components in those state.basically react keeps track of state variable and ensure they stay up to date for the component</p>
        </div>
      </div>
     
