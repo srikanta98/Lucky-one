@@ -1,21 +1,23 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Card from "./Card/Card";
-import Navbar from "./Navbar/Navbar";
-import Modal from "react-modal";
+
+
 import { CgCloseR } from "react-icons/cg";
 
-Modal.setAppElement("#root");
+
 
 function App() {
   const [guns, setGuns] = useState([]);
   const [cart, setCart] = useState([]);
+  const [deletecart, setDelete] = useState([]);
  
 
   const handleAddToCart = (gun) => {
     const newCart = [...cart, gun];
     setCart(newCart);
   };
+  
 
  
 
@@ -54,17 +56,17 @@ function App() {
         </button>
         </div>
       </div>
-      {/* <Modal isOpen={modal} onRequestClose={closeModal} style={customStyles}>
-        <button className='modal-close-button' onClick={closeModal}>
-          <CgCloseR size={25} />
-        </button>
-        {cart.length === 0 && (
-          <div className='cart-warning'>
-            <p> Cart is empty </p>
-          </div>
-        )} */}
+  
         
-      <h1>srikanth</h1>
+     <div className="first">
+       <h1>How react works?</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore veniam animi obcaecati quasi dolorem inventore! Minus quas atque exercitationem amet.</p>
+       <div className="second">
+       <h1>Usestate vs prop?</h1>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quaerat molestiae necessitatibus maxime quos suscipit laboriosam nostrum a, incidunt quidem.</p>
+       </div>
+     </div>
+    
     </div>
   );
 }

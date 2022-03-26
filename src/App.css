@@ -62,3 +62,24 @@ body {
   top: 54px;
   right: 742px;
 }
+.first{
+  background-color: antiquewhite;
+  text-align: center;
+  color: rgb(42, 40, 40);
+  border-radius: 20px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+.first h1 {
+  margin-bottom: 10px;
+  background-color: rgb(185, 102, 102);
+  border-radius: 60px;
+}
+.second{
+  margin-top: 30px;
+  background-color: antiquewhite;
+  text-align: center;
+  color: rgb(42, 40, 40);
+  border-radius: 20px;
+  height: 100px;
+}
