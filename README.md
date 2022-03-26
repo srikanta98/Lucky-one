@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Journey towards react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was done for assignment [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
